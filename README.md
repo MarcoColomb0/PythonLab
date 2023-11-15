@@ -1,6 +1,7 @@
-# Calcolatrice  🚀
+# Calcolatrice 🚀
 
-Benvenuto nel progetto Calcolatrice! Questa semplice calcolatrice è progettata per eseguire operazioni di base, rendendo facile svolgere calcoli comuni.
+Benvenuto nel progetto Calcolatrice! Questa semplice calcolatrice è progettata per eseguire operazioni di base, rendendo
+facile svolgere calcoli comuni.
 
 ## Funzionalità 🧮
 
@@ -15,7 +16,8 @@ La calcolatrice supporta le seguenti operazioni:
 
 Per utilizzare questa calcolatrice sul tuo computer locale, segui questi passaggi:
 
-1. Assicurati di avere Python installato sul tuo sistema. Se non lo hai, puoi scaricarlo dal [sito ufficiale di Python](https://www.python.org/).
+1. Assicurati di avere Python installato sul tuo sistema. Se non lo hai, puoi scaricarlo
+   dal [sito ufficiale di Python](https://www.python.org/).
 
 2. Scarica il repository sulla tua macchina locale.
 
@@ -39,6 +41,7 @@ Ora dovresti essere pronto per iniziare a eseguire calcoli con la nostra calcola
 
 ## Contribuisci 🤝
 
-Se vuoi contribuire a migliorare questa calcolatrice, sentiti libero di aprire una pull request. Accettiamo volentieri contributi e feedback dalla community.
+Se vuoi contribuire a migliorare questa calcolatrice, sentiti libero di aprire una pull request. Accettiamo volentieri
+contributi e feedback dalla community.
 
 Grazie per aver scelto la nostra calcolatrice! Speriamo che ti sia utile per eseguire facilmente calcoli di base.
