@@ -5,7 +5,7 @@ import os
 # Main function
 def main():
     while True:
-    # Lista dei calcoli supportati
+        # Lista dei calcoli supportati
         print('\nChe calcolo vuoi fare?\n1. Somma\n2. Sottrazione\n3. Moltiplicazione\n4. Divisione\nq. Esci')
         # Richiesta del calcolo da eseguire all'utente
         job = input('Selezione: ')
@@ -16,23 +16,24 @@ def main():
             try:
                 num1 = float(input('Inserisci il primo numero: '))
                 num2 = float(input('Inserisci il secondo numero: '))
-            except:
-                print('Input non valido, riprova.\n')
+            except ValueError:
+                print('Input non valido, inserisci un numero valido.\n')
                 continue
-            # Somma
+            # Operazioni matematiche
             if job == '1':
                 print(num1, '+', num2, '=', num1 + num2, '\n')
-            # Sottrazione
             elif job == '2':
                 print(num1, '-', num2, '=', num1 - num2, '\n')
-            # Moltiplicazione
             elif job == '3':
                 print(num1, '*', num2, '=', num1 * num2, '\n')
-            # Divisione con controllo divisione per zero
             elif job == '4':
                 try:
-                    print(num1, '/', num2, '=', num1 / num2, '\n')
-                except:
+                    result = num1 / num2
+                    if num2 != 0:
+                        print(num1, '/', num2, '=', result, '\n')
+                    else:
+                        print('Non puoi dividere per zero.\n')
+                except ZeroDivisionError:
                     print('Non puoi dividere per zero.\n')
         # Quit script
         elif job == 'q':
